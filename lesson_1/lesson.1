@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,15 +12,15 @@ int main(void)
 
 	printf("First number is random!\n");
 	op_1 = rand();
-	if (op_1 > 1000)
+	if (op_1 > 100)
 	{
-		op_1 = op_1 % 1000;
+		op_1 = op_1 % 100;
 	}
 	printf("op_1 = %d\n", op_1);
 
 	printf("Second number is also random!\n");
 	op_2 = rand();
-	if (op_2 > 1000)
+	if (op_2 > 100)
 	{
 		op_2 = op_2 % 100;
 	}
@@ -29,14 +30,13 @@ int main(void)
 	/* + */
 	printf("%d + %d = %d\n", op_1, op_2, (op_1 + op_2));
 	/* - */
-    printf("%d - %d = %d\n", op_1, op_2, (op_1 - op_2));
+
 	/* * */
-    printf("%d * %d = %d\n", op_1, op_2, (op_1 * op_2));
+
 	/* / */
-    printf("%d / %d = %d\n", op_1, op_2, (op_1 / op_2));
+
 	/* % */
-    printf("%d  & %d = %d\n", op_1, op_2, (op_1 %  op_2));
 
 	printf("Bye!!!\n");
 	return (0);
-}
+}ss
