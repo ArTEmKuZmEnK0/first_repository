@@ -3,7 +3,7 @@
 int main(void)
 {
 	printf("ggggggggggggggggg"\n");
-	printf("%s\n", "hdgcjgjgjgeghj");
+	printf("%s\n", "hello vaelr");
 
 	return (0);
 }
