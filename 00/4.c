@@ -3,10 +3,7 @@
 
 int main(void)
 {
-	char a[2] = "z"
-	
-	printf("\n c = %s\n\n", c);
-
-   return (0);
+	char d[2] = "z";
+	printf("d =%s\n\n", d);
 
 }
