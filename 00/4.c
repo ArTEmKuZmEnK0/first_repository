@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 int main(void)
 {
-	char d[2] = "z";
-	printf("d =%s\n\n", d);
+  write(1,"z \n",3);
 
+  return(0);
 }

@@ -15,5 +15,5 @@ int main(void)
 	printf("99= %lu\n", sizeof(c));
 
     printf("100= %lu\n", sizeof(d));
-
+    return(0);
 }
