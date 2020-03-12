@@ -5,8 +5,8 @@ int main(void)
 	int counter;
 	int maximum;
 
-	counter = 10;
-	maximum = 0;
+	counter = 0;
+	maximum = 10;
 
 	while (counter <= maximum)
 	{
