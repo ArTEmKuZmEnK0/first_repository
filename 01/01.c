@@ -1,7 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
- int  main(void)
- {
- 	printf("%s\n", "10987654321");
-  	return 0;
- }
+
+int main(void)
+{
+	int counter;
+	int maximum;
+
+	counter = 0;
+	maximum = 10;
+
+	while (counter <= maximum)
+	{
+		printf("%d\n", counter);
+		counter++;
+	}
+
+	return (0);
